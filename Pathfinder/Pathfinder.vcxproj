@@ -111,6 +111,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DisjointSet.cpp" />
+    <ClCompile Include="output.cc" />
+    <ClCompile Include="pathfinder.cpp" />
+    <ClCompile Include="Sampler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisjointSet.h" />
+    <ClInclude Include="pathfinder.h" />
+    <ClInclude Include="Sampler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
